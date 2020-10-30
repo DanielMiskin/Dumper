@@ -1,0 +1,9 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(453,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Dumper.cpp
+D:\Documents\FileDumper\Dumper\Dumper.cpp(66,1): warning C4010: single-line comment contains line-continuation character
+  Dumper.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  Dumper.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+sfml-audio-s.lib(SoundFileWriterWav.cpp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dumper.obj
+sfml-audio-s.lib(SoundFileWriterWav.cpp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dumper.obj
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+..\Dumper.exe : fatal error LNK1319: 2 mismatches detected
